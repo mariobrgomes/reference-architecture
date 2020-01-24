@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Customer\" />
+    <Folder Include="CheckingAccount\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RIFS.Core.Domain" Version="1.0.0-CI-20200122-145003" />
+  </ItemGroup>
+
+</Project>

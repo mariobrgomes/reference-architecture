@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\MongoDb\" />
+    <Folder Include="Data\Oracle\" />
+    <Folder Include="Data\SqlServer\" />
+    <Folder Include="Messaging\" />
+    <Folder Include="Cache\" />
+  </ItemGroup>
+
+</Project>
